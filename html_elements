@@ -1,0 +1,45 @@
+
+<html>
+    <head>//标题（显示在标签页处）
+      <title>Your Name</title>
+    </head>
+    <h1>start</h1>//一级标题
+    <p>There's going to be an evil henchman meetup next month at my underground lair in...</p>//段落
+    <h2>final1</h2>//二级标题
+    <p>
+        <img src = "fxxkit.jpg">//插入图片
+        <a href = "../html01.html">hyperreference to html01.html</a>//超链接到html01.html（../是返回上一级目录）
+        <ul>//列表形式（每一行开始有一个·）
+            <li>come join us</li>//li指定一行
+            <li>Great Wall</li>
+            <li>Forbidden City</li>
+        </ul>
+        <em>This is an important part!</em>//斜体字
+        Beijing is a nice place, so why not come here and enjoy it right now?
+        <q>Maybe you are right</q>//引用，加双引号
+    </p>
+    <h2>final2</h2>
+    <p>
+        <time>08 12 29 13 00</time>//识别时间格式（？）
+        <ol>//列表形式（每一行开始有数字标行）
+            <li>basketball</li>
+            <li>football</li>
+            <li>baseball</li>
+        </ol>
+        <pre>//按代码格式打印文本
+            Play 
+            Basketball
+            Is 
+            Not 
+            An 
+            Easy
+            Thing
+        </pre>
+        Lebrn James <br>is a famous player.<br>//换行符
+        Beijing is a nice place, so why not come here and enjoy it right now?
+        <blockqoute>Maybe you are right</blockqoute>//长段落引用（？）
+        <strong>Diss u</strong>//强调，粗体字
+    </p>
+</html>
+
+//HTML的基本元素汇总，除<code>外都已应用到。暂不明blockqoute和time的具体作用
