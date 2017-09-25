@@ -1,4 +1,3 @@
-
 <html>
     <head>//标题（显示在标签页处）
       <title>Your Name</title>
@@ -37,9 +36,9 @@
         </pre>
         Lebrn James <br>is a famous player.<br>//换行符
         Beijing is a nice place, so why not come here and enjoy it right now?
-        <blockqoute>Maybe you are right</blockqoute>//长段落引用（？）
+        <blockquote>Maybe you are right</blockquote>//长段落引用，段落每行前缩进一个单位长度
         <strong>Diss u</strong>//强调，粗体字
     </p>
 </html>
 
-//HTML的基本元素汇总，除<code>外都已应用到。暂不明blockqoute和time的具体作用
+//HTML的基本元素汇总，除<code>外都已应用到。暂不明time的具体作用
