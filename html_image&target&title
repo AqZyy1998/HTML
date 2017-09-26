@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <!--utf-8指编码类型-->
+        <title>HTML img</title>
+    </head>
+    <body>
+        <h1>Welcome</h1>
+            <a href = "../01elements/html01.html"
+               target = "_blank">
+                <img src = "logo.jpg" alt = "logo of BUPT">
+            </a>
+            <!--target指定目标窗口，“_blank”指新窗口-->
+            <!--alt后文字在图片路径出错时替代图片位置-->
+            <!--10-13行让logo.jpg可以超链接到html01.html的标签页-->
+        <p>
+            Read the <a title = "WEB" 
+                        href = "../01elements/html01.html">web</a> carefully.
+        </p>
+            <!--链接中的title在鼠标悬浮在“web”上时能显示它的名称“WEB”-->
+    </body>
+</html>
