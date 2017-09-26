@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <script type="text/javascript">
+        function change_header()
+        {
+            document.getElementById("myHeader").innerHTML="Nice day!";
+        }
+        </script>
+    </head>
+    <body>
+        <h1 id="myHeader">Hello World!</h1>
+        <button onclick="change_header()">Change text</button>
+    </body>
+</html>
+
+<!--id的作用是标记hello world！这一句，并赋给它一个名称，在本程序中体现为change_header函数中将id作为一个变量-->
+<!--这个id是独一无二的-->
